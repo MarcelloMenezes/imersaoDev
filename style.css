@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.imagem {
+  height: 160px;
+  width: 160px;
+  left: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+}
+
+.container {
+  background: #f6f6f6;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 12px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil-principal {
+  display: flex;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.tema button {
+  align-self: flex-end;
+  fobt-size: 24px;
+  font-weight: 400;
+  border-radius: 100px;
+}
+
+.projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.titulo-projeto {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  color: #1c1c1c;
+  margin: 40px;
+}
+
+.link-sites {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.link-sites a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.titulo-projeto ul {
+  list-style-type: none;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: left;
+  margin-left: -30px;
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.logo-facebook {
+  width: 30px;
+  top: 0px;
+  right: 0px;
+}
+
+.logo-twitter {
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.logo-linkedin {
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.logo-github {
+  width: 30px;
+  top: 5px;
+  right: 10px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
