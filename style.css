@@ -20,7 +20,7 @@ body {
   margin: 64px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0e1d2f;
-  padding: 12px;
+  padding: 20px;
 }
 
 .perfil {
@@ -62,7 +62,8 @@ body {
   font-size: 48px;
   font-style: normal;
   color: #1c1c1c;
-  margin: 40px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .link-sites {
